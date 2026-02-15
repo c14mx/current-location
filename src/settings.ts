@@ -30,7 +30,7 @@ export class CurrentLocationSettingTab extends PluginSettingTab {
 			.setName('Auto-add folders')
 			.setDesc('Comma-separated folder paths where new notes get location auto-added (e.g. "Journal/, Travel/"). Leave empty to disable auto-add.')
 			.addText(text => text
-				.setPlaceholder('e.g. journal/, travel/')
+				.setPlaceholder('Journal/...')
 				.setValue(this.plugin.settings.autoAddFolders.join(', '))
 				.onChange(async (value) => {
 					this.plugin.settings.autoAddFolders = value
@@ -42,10 +42,10 @@ export class CurrentLocationSettingTab extends PluginSettingTab {
 
 		new Setting(containerEl)
 			.setName('API key')
-			.setDesc('Provide an API key from opencagedata.com to include a reverse-geocoded address.')
+			.setDesc('Provide an API key from opencagedata.com to show an address.')
 			.addText(text => {
 				text.inputEl.type = 'password';
-				text.setPlaceholder('Enter your API key')
+				text.setPlaceholder('API key...')
 					.setValue(this.plugin.settings.apiKey)
 					.onChange(async (value) => {
 						this.plugin.settings.apiKey = value.trim();
@@ -66,7 +66,7 @@ export class CurrentLocationSettingTab extends PluginSettingTab {
 
 		new Setting(containerEl)
 			.setName('Test location')
-			.setDesc('Fetch your current location and display the result.')
+			.setDesc('Fetch your current location.')
 			.addButton(button => button
 				.setButtonText('Test')
 				.onClick(async () => {
