@@ -5,5 +5,6 @@
 	"minAppVersion": "0.15.0",
 	"description": "Attach your current location as frontmatter",
 	"author": "c14mx",
+	"authorUrl": "https://www.c14.mx",
 	"isDesktopOnly": false
 }
