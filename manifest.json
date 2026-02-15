@@ -1,0 +1,9 @@
+{
+	"id": "current-location",
+	"name": "Current Location",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Attach your current location as frontmatter",
+	"author": "c14mx",
+	"isDesktopOnly": false
+}
