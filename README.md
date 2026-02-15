@@ -33,6 +33,13 @@ An API key is only needed if you want reverse-geocoded addresses in addition to 
 - Create a new note inside a configured auto-add folder
 - Location is added automatically on creation
 
+### 4. Enable Location Services
+
+**macOS**
+- Open System Settings
+- Go to Privacy & Security > Location Services
+- Enable for Obsidian
+
 ## Settings
 
 | Setting | Description |
