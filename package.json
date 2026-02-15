@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-current-location",
 	"version": "1.0.0",
-	"description": "Attach your current location to a note as frontmatter.",
+	"description": "Attach your current location as frontmatter.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
