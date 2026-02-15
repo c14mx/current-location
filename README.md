@@ -21,7 +21,14 @@ An API key is only needed if you want reverse-geocoded addresses in addition to 
 4. (Optional) Add your API key in the **API key** field
 5. (Optional) Add folder paths in **Auto-add folders** to auto-tag notes
 
-### 3. Add location to a note
+### 3. Enable Location Services
+
+**On macOS**
+- Open System Settings
+- Go to Privacy & Security > Location Services
+- Enable for Obsidian
+
+### 4. Add location to a note
 
 **Option 1: Manual command**
 - Open a note
@@ -32,13 +39,6 @@ An API key is only needed if you want reverse-geocoded addresses in addition to 
 **Option 2: Auto-add**
 - Create a new note inside a configured auto-add folder
 - Location is added automatically on creation
-
-### 4. Enable Location Services
-
-**macOS**
-- Open System Settings
-- Go to Privacy & Security > Location Services
-- Enable for Obsidian
 
 ## Settings
 
