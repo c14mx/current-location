@@ -28,6 +28,11 @@ An API key is only needed if you want reverse-geocoded addresses in addition to 
 - Go to Privacy & Security > Location Services
 - Enable for Obsidian
 
+**On iOS**
+- When you first use the plugin, iOS will prompt you to share your location with Obsidian — select **While Using the App**
+- To adjust permissions later, go to Settings > Privacy & Security > Obsidian
+- For better location accuracy, enable **Precise Location**
+
 ### 4. Add location to a note
 
 **Option 1: Manual command**
