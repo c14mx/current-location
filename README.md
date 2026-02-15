@@ -80,4 +80,4 @@ npm run lint
 
 ## Feedback
 
-If you caught an issue or bug or have any feedback, [let me know on X](https://x.com/c14_mx).
+If you catch an issue or have any feedback, [let me know on X](https://x.com/c14_mx).
