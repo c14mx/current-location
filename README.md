@@ -2,6 +2,8 @@
 
 Attach your current location as frontmatter (`lat`, `lon`, and optionally `address`) to any note. Auto-add location to new notes in configured folders.
 
+![current-location](https://github.com/user-attachments/assets/a5957869-9314-407b-b5c9-9a06761c5387)
+
 ## Setup
 
 ### 1. Get an API key (optional)
